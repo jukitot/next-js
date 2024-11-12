@@ -1,9 +1,12 @@
 import React from 'react';
+import UsersComponent from "@/app/components/users/UsersComponent";
 
-const UsersPage = () => {
+const UsersPage = async () => {
+    const users = await fetch('https://jsonplaceholder.typicode.com/users')
+        .then(value => value.json())
     return (
         <div>
-            users Page
+            <UsersComponent users={users}/>
         </div>
     );
 };

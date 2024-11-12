@@ -11,7 +11,7 @@ const UserPage = async({params}:{params: Params}) => {
         <div>
             <h1>{user.id}</h1>
             <h2>{user.name}</h2>
-            {JSON.stringify(user)}
+
         </div>
     );
 };
