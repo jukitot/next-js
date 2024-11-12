@@ -27,7 +27,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
       <Menu/>
-      main layout text
         {children}
       </body>
     </html>

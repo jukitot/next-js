@@ -1,0 +1,9 @@
+.UserBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightskyblue;
+    width: 50vw;
+    margin: 0 auto;
+}

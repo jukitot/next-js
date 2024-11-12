@@ -1,8 +1,8 @@
 import React from 'react';
 import {Metadata} from "next";
 export const metadata: Metadata = {
-    title: 'public layout',
-    description: 'public metadata'
+    title: 'Posts page',
+    description: 'Posts data'
 }
 type Props = {
     children: React.ReactNode
@@ -10,7 +10,6 @@ type Props = {
 const PostsLayout = ({children}:Props) => {
     return (
         <div>
-            posts layout
             {children}
         </div>
     );

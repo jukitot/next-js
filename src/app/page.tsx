@@ -1,10 +1,8 @@
-
-import styles from "./page.module.css";
-
+import styles from './page.module.css'
 export default function Home() {
   return (
-    <div>
-     <h1>hello</h1>
+    <div className={styles.title}>
+     <h1>Select one of the tabs</h1>
     </div>
   );
 }

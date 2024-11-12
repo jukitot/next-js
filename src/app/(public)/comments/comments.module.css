@@ -1,0 +1,15 @@
+.commentsBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 24px;
+}
+.commentsBlock a {
+    color: black;
+    text-decoration: none;
+}
+
+.commentsBlock a:hover {
+    color: #383838;
+}
